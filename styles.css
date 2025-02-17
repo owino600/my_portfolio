@@ -52,6 +52,7 @@ footer {
 .about-photo-container {
     flex: 0 0 150px;
     margin-right: 20px;
+    background-color: lightgray; /* Temporary background for debugging */
 }
 
 .about-photo {
