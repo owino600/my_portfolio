@@ -1,0 +1,144 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: #fff;
+}
+
+.about-container {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.about-photo-container {
+    flex: 0 0 150px;
+    margin-right: 20px;
+}
+
+.about-photo {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.about-description-container {
+    flex: 1;
+}
+
+.about-description {
+    flex: 1;
+}
+
+.projects-container, .skills-container {
+    margin-top: 10px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.skills-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+.skill {
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.skill-info {
+    display: flex;
+    align-items: center;
+}
+
+.experience-icon {
+    font-size: 1.5em;
+    margin-right: 10px;
+}
+
+.badges {
+    margin-top: 10px;
+}
+
+.badge {
+    display: inline-block;
+    padding: 5px 8px;
+    border-radius: 3px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 1.2em;
+    margin-right: 10px;
+}
+
+.verified {
+    background-color: #1DA1F2;
+}
+
+.badge:not(.verified) {
+    background-color: #f44336;
+}
+
+.experience-level {
+    margin-top: 5px;
+    font-size: 0.9em;
+    color: #555;
+}
+
+.verified-badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1DA1F2;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.verified-badge i {
+    color: white;
+    font-size: 16px;
+}
